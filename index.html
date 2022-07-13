@@ -15,38 +15,36 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Personal Portfolio</title>
   </head>
   <body>
     <!-- LANDING PAGE SECTION -->
 
-    <section
-      class=".bg-image bg-white"
-      style="background-image: url(./img/19.svg); background-size: cover"
-    >
+    <section class="bg-white landing-page-section">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">
-              <h1>
+              <h3>
                 <b> My Logo </b>
-              </h1>
+              </h3>
             </a>
           </div>
           <div class="navbar-header">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#" style="text-decoration: none; margin-right: 4.5rem"
+            <ul class="list-inline list-unstyled">
+              <li class="list-inline-item navbar-list-of-icons">
+                <a href="#"
                   >About</a
                 >
               </li>
-              <li class="list-inline-item">
-                <a href="#" style="text-decoration: none; margin-right: 4.5rem"
+              <li class="list-inline-item navbar-list-of-icons">
+                <a href="#"
                   >Portfolio</a
                 >
               </li>
-              <li class="list-inline-item">
-                <a href="#" style="text-decoration: none; margin-right: 4.5rem"
+              <li class="list-inline-item navbar-list-of-icons">
+                <a href="#"
                   >Contact</a
                 >
               </li>
@@ -59,7 +57,7 @@
 
       <header>
         <div class="container">
-          <h1 style="font-family: 'Poppins'; padding-top: 7em">
+          <h1>
             <b>
               I’m Tinaye - Ex <br />
               Glad to see you!
@@ -74,13 +72,13 @@
           <h4 class="text-primary mt-5">LET US CONNECT</h4>
           <ul class="list-inline mt-3 mb-5">
             <li class="list-inline-item">
-              <a href="#"><img src="./img/06.svg" /></a>
+              <a href="#"><img src="./img/06.svg" alt=""/></a>
             </li>
             <li class="list-inline-item">
               <a href="#"><img src="./img/04.svg" alt="" /></a>
             </li>
             <li class="list-inline-item">
-              <a href="#"><img src="./img/01.svg" /></a>
+              <a href="#"><img src="./img/01.svg" alt=""/></a>
             </li>
             <li class="list-inline-item">
               <a href="#"><img src="./img/05.svg" alt="" /></a>
@@ -97,8 +95,55 @@
     <!-- CARD SECTION -->
 
     <section>
-      <div class="container-fluid">
-        <div class="container row rounded-4 bg-white ms-auto me-auto">
+      <div class="container-fluid mt-5 mb-5">
+        <div class="container row rounded-3 bg-white ms-auto me-auto">
+          <img class="col" src="img/07.png" alt="" />
+          <div class="col">
+            <h3>Tonic</h3>
+            <ul class="d-flex list-unstyled mt-3">
+              <li class="me-3">FACEBOOK</li>
+              <li class="me-3">
+                <img src="img/08.svg" alt="img" />
+              </li>
+              <li class="me-3">Full Stack Dev</li>
+              <li class="me-3">
+                <img src="img/08.svg" alt="img" />
+              </li>
+              <li class="me-3">2015</li>
+            </ul>
+            <p class="text-muted mt-4">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <ul class="list-inline mt-5">
+              <li class="list-inline-item">
+                <span class="badge span-badge-list">
+                  HTML
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span class="badge span-badge-list">
+                  CSS
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span class="badge span-badge-list">
+                  Javascript
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span class="badge span-badge-list">
+                  Ruby on rails
+                </span>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary mt-5" type="submit">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5 mb-5">
+        <div class="container row flex-row-reverse rounded-4 bg-white ms-auto me-auto">
           <img class="col" src="img/07.png" alt="" />
           <div class="col">
             <h3>Tonic</h3>
@@ -121,44 +166,220 @@
             <ul class="list-inline mt-5">
               <li class="list-inline-item">
                 <span
-                  class="badge"
-                  style="background-color: #ebebff; color: #6070ff"
+                  class="badge span-badge-list"
                 >
-                  <h5>HTML</h5>
+                  HTML
                 </span>
               </li>
               <li class="list-inline-item">
                 <span
-                  class="badge"
-                  style="background-color: #ebebff; color: #6070ff"
+                  class="badge span-badge-list"
                 >
-                  <h5>CSS</h5>
+                  CSS
                 </span>
               </li>
               <li class="list-inline-item">
                 <span
-                  class="badge"
-                  style="background-color: #ebebff; color: #6070ff"
+                  class="badge span-badge-list"
                 >
-                  <h5>Javascript</h5>
+                  Javascript
                 </span>
               </li>
               <li class="list-inline-item">
                 <span
-                  class="badge"
-                  style="background-color: #ebebff; color: #6070ff"
+                  class="badge span-badge-list"
                 >
-                  <h5>Ruby on rails</h5>
+                  Ruby on rails
                 </span>
               </li>
             </ul>
-            <button class="btn btn-outline-primary mt-5">See Project</button>
+            <button class="btn btn-outline-primary mt-5" type="submit">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5 mb-5">
+        <div class="container row  rounded-4 bg-white ms-auto me-auto">
+          <img class="col" src="img/07.png" alt="" />
+          <div class="col">
+            <h3>Tonic</h3>
+            <ul class="d-flex list-unstyled mt-3">
+              <li class="me-3">FACEBOOK</li>
+              <li class="me-3">
+                <img src="img/08.svg" alt="img" />
+              </li>
+              <li class="me-3">Full Stack Dev</li>
+              <li class="me-3">
+                <img src="img/08.svg" alt="img" />
+              </li>
+              <li class="me-3">2015</li>
+            </ul>
+            <p class="text-muted mt-4">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <ul class="list-inline mt-5">
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  HTML
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  CSS
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  Javascript
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  Ruby on rails
+                </span>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary mt-5" type="submit">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5 mb-5">
+        <div class="container row flex-row-reverse bg-white ms-auto me-auto">
+          <img class="col" src="img/07.png" alt="" />
+          <div class="col">
+            <h3>Tonic</h3>
+            <ul class="d-flex list-unstyled mt-3">
+              <li class="me-3">FACEBOOK</li>
+              <li class="me-3">
+                <img src="img/08.svg" alt="img" />
+              </li>
+              <li class="me-3">Full Stack Dev</li>
+              <li class="me-3">
+                <img src="img/08.svg" alt="img" />
+              </li>
+              <li class="me-3">2015</li>
+            </ul>
+            <p class="text-muted mt-4">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <ul class="list-inline mt-5">
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  HTML
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  CSS
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  Javascript
+                </span>
+              </li>
+              <li class="list-inline-item">
+                <span
+                  class="badge span-badge-list"
+                >
+                  Ruby on rails
+                </span>
+              </li>
+            </ul>
+            <button class="btn btn-outline-primary mt-5" type="submit">See Project</button>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- ABOUT ME SECTION -->
+
+    <section>
+      <div class="container bg-white rounded row ms-auto me-auto">
+        <div class="col-md-5 mt-5 mb-5">
+          <h1>
+            <b>
+              I’m Tinaye - Ex <br />
+              Glad to see you!
+            </b>
+          </h1>
+          <p class="text-muted mt-5">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, do not hestiate to
+            contact me.
+          </p>
+          <h4 class="text-primary mt-5">LET US CONNECT</h4>
+          <ul class="list-inline mt-3 mb-5">
+            <li class="list-inline-item">
+              <a href="#"><img src="./img/06.svg" alt=""/></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><img src="./img/04.svg" alt="" /></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><img src="./img/01.svg" alt=""/></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><img src="./img/05.svg" alt="" /></a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="#"><img src="./img/03.svg" alt="" /></a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-primary" type="submit">See Project</button>
+        </div>
+        <div class="col-md-7"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+
+    <section>
+      <div class="container">
+        <div>
+          <h1>Contact me</h1>
+          <p> If you have an application you are interested in developing, 
+              a feature that you need built or a project that needs coding. 
+              I’d love to help with it
+          </p>
+        </div>
+        <div>
+          <form action="" method="post">
+            <input type="text">
+            <input type="text">
+            <textarea name="" id="" cols="30" rows="10">
+
+            </textarea>
+            <button type="submit">
+
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <!-- BOOTSTRAP JS SCRIPT -->
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
