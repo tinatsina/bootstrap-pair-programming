@@ -1,3 +1,41 @@
 body {
   width: auto;
+  background-color: #efefef;
+}
+
+.landing-page-section {
+  background-image: url('../img/19.svg');
+  background-size: cover;
+  height: 50em;
+}
+
+.navbar-list-of-icons > a {
+  margin-right: 4.5rem;
+  text-decoration: none;
+}
+
+header > div > h1 {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 7em;
+}
+
+.span-badge-list {
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
+.contact-me-section {
+  color: #ebebff;
+  background-image: url('../img/19.svg');
+  background-size: cover;
+}
+
+.about-me-section {
+  background-color: #fff;
+  border-top-right-radius: 5em;
+}
+
+.contact-me-section-true {
+  background-color: #6070ff;
+  border-top-left-radius: 5em;
 }
