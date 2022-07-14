@@ -25,8 +25,17 @@ header > div > h1 {
 }
 
 .contact-me-section {
-  background-color: #6070ff;
   color: #ebebff;
   background-image: url('../img/19.svg');
   background-size: cover;
+}
+
+.about-me-section {
+  background-color: #fff;
+  border-top-right-radius: 5em;
+}
+
+.contact-me-section-true {
+  background-color: #6070ff;
+  border-top-left-radius: 5em;
 }
