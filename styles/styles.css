@@ -23,3 +23,10 @@ header > div > h1 {
   background-color: #ebebff;
   color: #6070ff;
 }
+
+.contact-me-section {
+  background-color: #6070ff;
+  color: #ebebff;
+  background-image: url('../img/19.svg');
+  background-size: cover;
+}

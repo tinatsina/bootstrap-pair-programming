@@ -354,22 +354,29 @@
     <!-- ABOUT ME SECTION -->
 
     <section>
-      <div class="container">
-        <div>
-          <h1>Contact me</h1>
-          <p> If you have an application you are interested in developing, 
-              a feature that you need built or a project that needs coding. 
-              I’d love to help with it
+      <div class="container rounded row ms-auto me-auto bg-blue contact-me-section">
+        <div class="col-md-6 ms-auto me-auto">
+          <h1 class="text-center mt-5">Contact me</h1>
+          <p class="text-center mt-5 mb-5">  If you have an application you are interested in developing, 
+                                        a feature that you need built or a project that needs coding. 
+                                        I’d love to help with it
           </p>
         </div>
-        <div>
-          <form action="" method="post">
-            <input type="text">
-            <input type="text">
-            <textarea name="" id="" cols="30" rows="10">
-
-            </textarea>
-            <button type="submit">
+        <div class="ms-auto me-auto">
+          <form action="" method="post" class="col-md-6 ms-auto me-auto">
+            <div class="col-md-6 ms-auto me-auto mt-3 mb-3">
+              <input type="text" class="form-control" name="name" placeholder="Username">
+            </div>
+            <div class="col-md-6 ms-auto me-auto mt-3 mb-3">
+              <input type="email" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="col-md-6 ms-auto me-auto mt-3 mb-3">
+              <textarea class="form-control rounded" name="information" cols="35" rows="10" placeholder=" Enter your information"></textarea>
+            </div>
+            <div class="col-md-6 ms-auto me-auto mt-3 mb-3 text-center">
+              <button class="btn btn-outline-primary ms-auto me-auto" type="button">Contact Me</button>
+            </div>
+            
 
             </button>
           </form>
